@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<math.h>
+
+int main()
+{
+	double a,b,c,C,S;
+	scanf("%lf%lf%lf",&a,&b,&c);
+	C=(a+b+c)/2;
+	S=sqrt(C*(C-a)*(C-b)*(C-c));
+	printf("%lf",S);
+	
+	return 0;
+}
